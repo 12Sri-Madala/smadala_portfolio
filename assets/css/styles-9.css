@@ -124,11 +124,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 .border-bottom-color2{
-    border-bottom:7px solid #F28C83;
+    border-bottom:7px solid orangered;
 }
 
 .border-top-color2{
-    border-top:7px solid #F28C83;
+    border-top:7px solid orangered;
 }
 
 .color1 .service-icon,
@@ -168,7 +168,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     color:#fff;
     font-size: 21px;
     font-weight: 300;
-    background:#F28C83;
+    background:orangered;
     outline: none !important;
     border-radius: 0;
     transition: opacity .2s ease-out;
@@ -311,6 +311,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     font-weight:400;
     background:transparent;
     color:#F51;
+    text-shadow: 0px 0px 1px red;
     transition: color .2s ease-in;
 }
 
@@ -711,7 +712,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 .project-item .hover-mask .project-title {
-    color: #fff;
+    color: black;
     /* margin: 90px 0 0; */
     padding: 10px;
     font-size: 26px;
@@ -736,7 +737,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     font-size:16px;
     line-height:24px;
     font-weight:400;
-    text-transform:uppercase;
+    /* text-transform:lowercase; */
     text-align:center;
     opacity: 0;
     -webkit-transform: translateY(100px);
@@ -987,6 +988,17 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 /*----------------------
 ----- Contact Styles ----
 ------------------------*/
+
+.shadow {
+    text-shadow: 2px 2px 5px rgba(30,30,30,1), 
+    -2px 2px 5px rgba(30,30,30,1), 
+    2px -2px 5px rgba(30,30,30,1), 
+    -2px -2px 5px rgba(30,30,30,1);
+}
+
+.descT {
+    color: black;
+}
 
 #contact{
     background-image:url('../images/Intersecting\ Journeys.jpg');
