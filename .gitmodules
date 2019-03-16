@@ -1,0 +1,3 @@
+[submodule "beer_roulette"]
+	path = beer_roulette
+	url = https://github.com/Tkim43/c918_hackathon2.git
