@@ -13,12 +13,12 @@ body{
     background: white;
 }
 a{
-	color:#F28C83;
+	color:black;
 	text-decoration:none
 }
 
 a:hover,a:focus{
-	color:#F28C83;
+	color: royalblue;
 	text-decoration:underline
 }
 
