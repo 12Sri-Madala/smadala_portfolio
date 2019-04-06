@@ -989,6 +989,27 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 ----- Contact Styles ----
 ------------------------*/
 
+.contactInfo {
+    /* padding-top: 32px; */
+    text-align: left;
+    font-size: 16px;
+    /* padding-left: 28px; */
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.contactInfo > div{
+    font-size: 1.2em;
+}
+
+.containerContactMe{
+    text-align: center;
+}
+
+.contactLink{
+    color: wheat;
+}
+
 .shadow {
     text-shadow: 2px 2px 5px rgba(30,30,30,1), 
     -2px 2px 5px rgba(30,30,30,1), 
