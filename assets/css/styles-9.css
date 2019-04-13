@@ -17,6 +17,10 @@ a{
 	text-decoration:none
 }
 
+.AMLink {
+    color: wheat
+}
+
 a:hover,a:focus{
 	color: royalblue;
 	text-decoration:underline
